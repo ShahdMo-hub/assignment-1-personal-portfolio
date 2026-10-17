@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.border-redius{
+    border-radius: 30px;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.title{
+    background-color: rgb(254, 113, 195);
+    color: white;
+    width: 90%;
+    height: auto;
+    border-radius: 50px;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.title .header{
+    background-color: rgb(17, 85, 233);
+    color: rgb(235, 229, 229);
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+.title .header button{
+    width: 15%;
+    border-radius: 60px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.title .about{
+    background-color: beige;
+    color: rgb(13, 13, 13);
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-left: 20px;
+} 
+
+.title .about h2{
+    text-align: start;
+    border-bottom: 2px solid blue;
+    padding-bottom: 8px;
+}
+
+.title .about span{
+    color: #ff2a00;
+}
+
+.title .about p{
+    text-align: start;
+    padding: 50px;
+    padding-bottom: 50px;
+}
+
+.title .about img{
+    width: 20%;
+    border-radius: 100%;
+    float: left;
+    padding: 5px; 
+    border: 5px solid rgb(248, 173, 173);
+    margin-right: 30px;
+}
+
+.title .about button{
+    width: 20%;
+    border-style: solid;
+    background-color: yellow;
+    padding: 10px;
+    float: left;
+}
+
+.title .skills{
+    background-color: beige;
+    color: rgb(13, 13, 13);
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.title .skills h2{
+    text-align: start;
+    border-bottom: 2px solid blue;
+    padding-bottom: 8px;
+}
+
+.title .skills p{
+    text-align: start;
+}
+
+.title .skills .technologies .contant1{
+    background-color: rgb(233, 150, 122, 1);
+    float: left;
+    border: 2px solid teal;
+    width: 20%; 
+    margin: 10px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.title .skills .technologies .contant2{
+    background-color: rgb(233, 150, 122, 1);
+    float: left;
+    border: 2px solid teal;
+    width: 20%; 
+    margin: 10px;
+    padding: 10px;
+}    
+
+.title .skills .technologies .contant3{
+    background-color: rgb(233, 150, 122, 1);
+    float: left;
+    border: 2px solid teal;
+    width: 20%; 
+    margin: 10px;
+    padding: 10px;
+}
+
+.title .skills .technologies .contant4{
+    background-color: rgb(233, 150, 122, 1);
+    float: left;
+    border: 2px solid teal;
+    width: 20%; 
+    margin: 10px;
+    padding: 10px;
+    margin-right: 50px;
+}    
+    
+.title .experience{
+    background-color: beige;
+    color: rgb(13, 13, 13);
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px; 
+    text-align: start;
+}
+
+.title .experience h2{
+    text-align: start;
+    border-bottom: 2px solid blue;
+    padding-bottom: 8px;
+}
+
+.title .experience img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    border-radius: 25%;
+    border: 10px solid white;
+    margin: 25px;
+}
+
+.title .experience span{
+    color: #d0ff00;
+}
+
+.title .experience .tech-crop{
+    background-color:lightslategray;
+    padding: 10px;
+    padding-left: 10px;
+    border-radius: 40px;
+    margin-left: 12px;
+    width: 90%;
+    border-left: 5px solid #ff006f;
+}
+
+.title .experience p{
+    padding-left: 20px;
+}
+
+.title .experience .digital-agency{
+    background-color:lightslategray;
+    padding: 10px;
+    padding-left: 10px;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 90%;
+    border-left: 5px solid #ff006f;
+}
+
+.title .contact{
+    background-color: rgb(17, 85, 233);
+    color: rgb(235, 229, 229);
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px; 
+    text-align: start;
+}
+
+.title .contact h2{
+    text-align: start;
+    border-bottom: 2px solid rgb(78, 185, 247);
+    padding-bottom: 8px;
+}
+
+.title .contact button{
+    padding: 10px;
+}
+
+.title .contact p{
+    padding: 10px;
+}
+
+.title .final{
+    background-color: rgba(13, 31, 80, 0.93);  
+    color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px; 
+}
+
+.title .final span{
+    color: rgb(14, 25, 239);
+}
